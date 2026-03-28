@@ -751,4 +751,4 @@ async def clear_error(ctx, error):
         await ctx.send("Użycie: `!clear 5`")
 
 
-bot.run("MTQ3OTAxMzYwODQwNjEyMjQ5Ng.GByj9O.Bi8tVdNr96CvwPyBI310LJKZNGN_CF6AWKvpXA")
+bot.run(os.getenv("TOKEN"))
